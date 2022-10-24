@@ -10,6 +10,7 @@ public class EatingCucumber {
         System.out.println("It is from Given");
     }
 
+
     @When("he eats some cucumbers")
     public void he_eats_some_cucumbers() {
         System.out.println("It is from When");
