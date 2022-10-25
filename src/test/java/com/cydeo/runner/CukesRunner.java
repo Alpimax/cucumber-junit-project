@@ -11,9 +11,9 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features/eating_cucumber.feature",
         glue = "com/cydeo/step_definitions",
         dryRun = false,
-        tags =
+        tags = "@Regression"
 )
-public class CukerRunner {
+public class CukesRunner {
 
 
 }
