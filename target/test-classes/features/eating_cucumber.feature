@@ -5,4 +5,3 @@ Feature: Eating too many cucumbers may not be good for you
     Given John is hungry
     When  he eats some cucumbers
     Then  he will be full
-    
