@@ -3,12 +3,15 @@ package com.cydeo.step_definitions;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 
 public class EatingCucumber {
     @Given("John is hungry")
     public void john_is_hungry() {
         System.out.println("It is from Given");
     }
+	private WebElement webElement;
 
 
     @When("he eats some cucumbers")
