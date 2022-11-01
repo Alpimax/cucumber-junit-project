@@ -7,11 +7,12 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        plugin = "html:target/CukerRunner.html",
+        plugin = {"html:target/CukerRunner.html",
+        "rerun:target/rerun.txt"},
         features = "src/test/resources/features/eating_cucumber.feature",
         glue = "com/cydeo/step_definitions",
         dryRun = false,
-        tags = "@employee"
+        tags = "@smoke"
 )
 public class CukesRunner {
 

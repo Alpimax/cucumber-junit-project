@@ -25,7 +25,7 @@ public class WebTableLoginPage {
      * This method will accept username and password and login to app
      *
      * @param username
- * @param password
+     * @param password
      */
     public void login(String username, String password) {
         inputUsername.sendKeys(username);
