@@ -13,6 +13,7 @@ public class DropdownsPage {
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
+
     @FindBy(id = "month")
     public WebElement monthDropdown;
 
