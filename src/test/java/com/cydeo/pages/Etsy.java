@@ -9,7 +9,6 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class Etsy {
-
     @FindBy(id = "global-enhancements-search-query")
     public WebElement searchArea;
 
