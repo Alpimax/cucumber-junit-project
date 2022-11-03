@@ -18,6 +18,8 @@ public class Etsy {
     @FindBy(xpath = "(//button[@type= 'submit'])[1]")
     public WebElement searchAreaClick;
 
+
+
     public Etsy() {
         PageFactory.initElements(Driver.getDriver(), this);
     }
