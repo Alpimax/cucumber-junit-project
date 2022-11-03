@@ -1,5 +1,6 @@
 package com.cydeo.step_definitions;
 
+import com.cydeo.methods.ExtentReportUtill;
 import com.cydeo.utilities.Driver;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
@@ -26,6 +27,10 @@ public class Hooks {
 
         }
 
+
+        ExtentReportUtill.ExtentReport();
+        ExtentReportUtill.ExtentReportScreenshot(scenario);
+        ExtentReportUtill.FlushReport();
         Driver.closeDriver();
     }
 
