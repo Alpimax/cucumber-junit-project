@@ -13,8 +13,6 @@ import org.openqa.selenium.support.FindBy;
 
 public class Hooks {
 
-
-
     @After
     public void teardownScenario(Scenario scenario){
         // We will implement taking screenshot in this method
@@ -27,14 +25,11 @@ public class Hooks {
 
         }
 
-
-
         ExtentReportUtill.ExtentReport();
         ExtentReportUtill.ExtentReportScreenshot(scenario);
         ExtentReportUtill.FlushReport();
         Driver.closeDriver();
     }
-
 
 
     //@Before
